@@ -25,6 +25,7 @@ balances2.onclick = function add () {
     balances2.disabled = true
   }
 }
+
 balances3.onclick = function add1 () {
   for (let i = 0; i < arrscale2.length; i++) {
     for (let j = arrscale2.length; j >= 0; j--) {
