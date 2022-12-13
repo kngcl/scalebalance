@@ -10,7 +10,7 @@ The projects is all about balancing a scale of two inputs with several other inp
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 
 ### Prerequisites
 
@@ -19,7 +19,7 @@ Knowledge about:
 - HTML
 - CSS
 - Google chrome
-- Javascript
+- JavaScript
   
 ## Clone project
 
