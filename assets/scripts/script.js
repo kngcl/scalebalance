@@ -33,9 +33,9 @@ balances3.onclick = function add1 () {
       t = parseInt(arrscale1[1]) + parseInt(arrscale2[j])
 
       if (w === t) {
-         found = true
-         y = parseInt(arrscale2[j])
-         l = parseInt(arrscale2[i])
+        found = true
+        y = parseInt(arrscale2[j])
+        l = parseInt(arrscale2[i])
       }
     }
     if (found) {
