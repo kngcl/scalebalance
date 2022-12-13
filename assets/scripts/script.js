@@ -5,9 +5,8 @@ const balances = document.getElementById('balance')
 const balances2 = document.getElementById('balance2')
 const balances3 = document.getElementById('balance3')
 let arrscale1 = []
- let var1,var2,w, t, found, y, l
+let var1, var2, w, t, found, y, l
 let arrscale2 = []
-
 
 balances.onclick = function addElements () {
   var1 = toBalance.value
@@ -17,6 +16,7 @@ balances.onclick = function addElements () {
     balances.disabled = true
   }
 }
+
 balances2.onclick = function add () {
   var2 = useToBalance.value
   arrscale2 = var2.split(',')
@@ -32,9 +32,9 @@ balances3.onclick = function add1 () {
       t = parseInt(arrscale1[1]) + parseInt(arrscale2[j])
 
       if (w === t) {
-          found = true
-          y = parseInt(arrscale2[j])
-          l = parseInt(arrscale2[i])
+         found = true
+         y = parseInt(arrscale2[j])
+         l = parseInt(arrscale2[i])
       }
     }
     if (found) {
